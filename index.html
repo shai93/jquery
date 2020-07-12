@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="jquery.js"></script>  
+    <script src="traversing.js"></script>      
+</head>
+<body>
+    <!-- <p>Click</p>
+    <p>Hello</p> -->
+    <!-- <button>Click</button>
+    <p></p>
+    <p id="second">
+        <span>one</span>
+        <span>two</span>
+        <span>three</span>
+        <span>four</span>
+    </p>
+    <p></p>
+
+    <div style="width: 800px; height: 100px;" class="parent">
+        <div id="child" style="width: 100px;height:100px; border: 2px solid #dddddd; background:red;border:4px solid grey;
+        position: absolute;"></div>
+    </div> -->
+
+        <!-- <div style="width:300px; height: auto; background: grey">
+            (div)
+            <ul>
+                (ul)
+                <li>
+                    (li)
+                    <p>P content</p>
+                </li>
+                <li class="second">
+                    <span>Span content</span>
+                </li>
+            </ul>
+        </div>     -->
+        <!-- <div style="width:300px; height: auto; background: lightgray">
+            <h1>h1</h1>
+            <h2>h2</h2>
+            <p>p</p>
+            <b>b</b>
+            <h3>h3</h3>
+        </div> -->
+        <p>My name is- </p>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <td>Shailesh</td>
+                <td>24</td>
+            </tr>
+            <tr>
+                <td>Rahul</td>
+                <td>24</td>
+            </tr>
+            <tr>
+                <td>Sushil</td>
+                <td>24</td>
+            </tr>
+        </table>
+
+</body>
+</html>
+
+<!-- <script>
+    
+    $(document).ready(function(){
+        // $("p").click(function(event){
+        //     // event.target.innerHTML = "Hello World";
+        //     $(this).text("Hello World");
+        // })
+    
+        // $("div").hide();
+        $("#child").fadeOut();
+        $("button").click(function(){
+            // $("#second").text("Good Afternoon!").toggle();
+            // $("div").toggle();
+            // $("#child").fadeIn(3000,function(){
+            //     $(this).animate({
+            //         left:"400px"
+            //     },2000)
+            // })
+            $(".parent").css({
+                padding:"40px",
+                height:"300px",
+                margin:"20px",
+                border:"4px solid black"
+            })
+
+            console.log($("#second").html())
+        })
+    })
+    
+</script> -->
+
+<style>
+
+table,th,td{
+    border: 1px solid grey;
+    border-collapse: collapse;
+    padding: 30px;
+}
+
+th{
+    background: gold;
+    color: black;
+}
+
+</style>
